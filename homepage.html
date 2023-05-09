@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+ <style>
+
+body {
+  background-color: rgb(179, 138, 26);
+}
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #899189;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #112227;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #dee6dc;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ca9810;
+  color: rgb(245, 241, 241);
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:500px) {
+  .column {
+    width: 200%;
+  }
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #d6bb21;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+</style>
+
+</head>
+
+<body>
+    
+
+  <div class="header">
+    <h1>Homepage</h1>
+  </div>
+  <p>Site em processo de Construção.</p>
+
+  <div class="topnav">
+    <a href="http://127.0.0.1:5000/homepage">Homepage</a>
+    <a href="http://127.0.0.1:5000/usuarios">usuarios</a>
+    <a href="http://127.0.0.1:5000/contatos">contatos</a>
+  </div>  
+  <div class="row">
+    <div class="column">
+      <h2>Homepage</h2>
+      <p>O cliente é muito importante, o cliente será seguido pelo cliente. Mecenas deve ser o preço da urna. Ele não quer ser envenenado, nem é vingativo; ele precisa de um elemento de grande tristeza. Todo mundo precisa de um veículo, um sorriso precisa de algum investimento, um leo tincidunt eros puro, precisa de luto do que o hospital quer. É um chocolate quente, mas é uma camada em camadas.</p>
+    </div>
+    
+    <div class="column">
+      <h2>usuarios</h2>
+      <p>O cliente é muito importante, o cliente será seguido pelo cliente. Mecenas deve ser o preço da urna. Ele não quer ser envenenado, nem é vingativo; ele precisa de um elemento de grande tristeza. Todo mundo precisa de um veículo, um sorriso precisa de algum investimento, um leo tincidunt eros puro, precisa de luto do que o hospital quer. É um chocolate quente, mas é uma camada em camadas.</p>
+    </div>
+    
+    <div class="column">
+      <h2>contatos</h2>
+      <p>O cliente é muito importante, o cliente será seguido pelo cliente. Mecenas deve ser o preço da urna. Ele não quer ser envenenado, nem é vingativo; ele precisa de um elemento de grande tristeza. Todo mundo precisa de um veículo, um sorriso precisa de algum investimento, um leo tincidunt eros puro, precisa de luto do que o hospital quer. É um chocolate quente, mas é uma camada em camadas.</p>
+    </div>
+  </div>
+  <h2>Redes Sociais</h2>
+
+<p>Clique em nossos links, para que possa seguir a gente em nossa rede social!</p>
+
+<button class="button">Whatsaap</button>
+<button class="button button2">facebook</button>
+<button class="button button3">youtube</button>
+
+<h2>Proxima Página</h2>
+
+
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+
+
+
+
+
+</body>
+</html>
